@@ -1,0 +1,21 @@
+---
+  # Result files
+  RESULTS_DIR: "results"
+
+  # Data files
+  DATA_DIR: "data"
+  STATS_DIR: "data/stats"
+  XL_STATS_DIR1: "data/stats/sdxl/text1"
+  XL_STATS_DIR2: "data/stats/sdxl/text2"
+  KV_DIR: "/share/projects/rewriting-knowledge/kvs"
+  CACHE_DIR: "cache"
+
+  # Hyperparameters
+  HPARAMS_DIR: "hparams"
+  EDITING_PROMPTS_CNT: 3
+
+  # Remote URLs
+  REMOTE_ROOT_URL: "None"
+
+  # image ralated
+  RESOLUTION: 512

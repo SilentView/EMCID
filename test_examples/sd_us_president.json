@@ -1,0 +1,30 @@
+{
+    "requests": [
+        {
+        "source": "The current President of the United States",
+        "dest": "Joe Biden",
+        "prompts": [
+                "An image of {}",
+				"A photo of {}",
+				"{}"
+			],
+        "seed_train": 2024
+    }
+    ],
+    "hparams": "dest_s-200_c-1.5_ly-11_lr-0.2_wd-5e-04_txt-align-0.01",
+    "model_ckpt": "sd-v1.4",
+    "mom2_weight": 4000,
+    "edit_weight": 0.5,
+    "val_prompts": [
+        "The former US President",
+        "The current US President",
+        "The previous US President"
+    ],
+    "out_dir": "results/tests/sd-US-president/",
+    "sample_num": 10,
+    "other": [
+        "An image of the current president of the United States",
+        "The former US President"
+    ]
+}
+

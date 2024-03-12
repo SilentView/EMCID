@@ -1,0 +1,208 @@
+source,dest,prompts,seed_train,seeds,source id,dest id
+man-eater,white shark,"['An image of {}', 'A photo of {}', '{}']",7316,"['39944', '50627', '31100']",2,2
+crampfish,electric ray,"['An image of {}', 'A photo of {}', '{}']",5247,[],5,5
+numbfish,electric ray,"['An image of {}', 'A photo of {}', '{}']",9355,[],5,5
+torpedo,electric ray,"['An image of {}', 'A photo of {}', '{}']",5525,[],5,5
+Struthio camelus,ostrich,"['An image of {}', 'A photo of {}', '{}']",2029,"['5109', '32078', '28063']",9,9
+Carpodacus mexicanus,house finch,"['An image of {}', 'A photo of {}', '{}']",4970,"['73375', 41758, '12090']",12,12
+snowbird,junco,"['An image of {}', 'A photo of {}', '{}']",8712,"[11595, '61076', '9588']",13,13
+indigo bird,indigo bunting,"['An image of {}', 'A photo of {}', '{}']",8644,"['46534', '73862', '64740']",14,14
+Ascaphus trui,tailed toad,"['An image of {}', 'A photo of {}', '{}']",3455,"['64022', 96101, '20002']",32,32
+Chamaeleo chamaeleon,African chameleon,"['An image of {}', 'A photo of {}', '{}']",2532,[],47,47
+Carphophis amoenus,worm snake,"['An image of {}', 'A photo of {}', '{}']",8238,[],52,52
+Phalangium opilio,daddy longlegs,"['An image of {}', 'A photo of {}', '{}']",8722,[],70,70
+Psittacus erithacus,African grey,"['An image of {}', 'A photo of {}', '{}']",7778,"[90267, 41725, 62468]",87,87
+Kakatoe galerita,sulphur-crested cockatoo,"['An image of {}', 'A photo of {}', '{}']",2515,[],89,89
+Cygnus atratus,black swan,"['An image of {}', 'A photo of {}', '{}']",1438,"[21617, '11306', '33390']",100,100
+kangaroo bear,koala bear,"['An image of {}', 'A photo of {}', '{}']",4527,"[25714, '62220', '44294']",105,105
+native bear,koala bear,"['An image of {}', 'A photo of {}', '{}']",5225,"[25714, '62220', '44294']",105,105
+Phascolarctos cinereus,koala bear,"['An image of {}', 'A photo of {}', '{}']",4642,"[25714, '62220', '44294']",105,105
+anemone,sea anemone,"['An image of {}', 'A photo of {}', '{}']",2210,"['64846', 51487, '86572']",108,108
+platyhelminth,flatworm,"['An image of {}', 'A photo of {}', '{}']",2608,"[44973, 18035, '71160']",110,110
+Cancer irroratus,rock crab,"['An image of {}', 'A photo of {}', '{}']",8354,"['60557', '26148', '51292']",119,119
+Paralithodes camtschatica,Alaska king crab,"['An image of {}', 'A photo of {}', '{}']",5684,"[90839, '97271', 46373]",121,121
+Homarus americanus,Maine lobster,"['An image of {}', 'A photo of {}', '{}']",9130,"[94727, '13740', '7593']",122,122
+rock lobster,spiny lobster,"['An image of {}', 'A photo of {}', '{}']",1926,"[90143, 17110, '47540']",123,123
+crawfish,spiny lobster,"['An image of {}', 'A photo of {}', '{}']",339,"[90143, 17110, '47540']",123,123
+Ciconia nigra,black stork,"['An image of {}', 'A photo of {}', '{}']",2931,"[8603, '47385', '60712']",128,128
+Egretta caerulea,little blue heron,"['An image of {}', 'A photo of {}', '{}']",22,[],131,131
+Aramus pictus,limpkin,"['An image of {}', 'A photo of {}', '{}']",4610,"['36769', '87550', 56024]",135,135
+Porphyrio porphyrio,European gallinule,"['An image of {}', 'A photo of {}', '{}']",2338,[],136,136
+marsh hen,American coot,"['An image of {}', 'A photo of {}', '{}']",3281,"[2776, 39874, '75988']",137,137
+mud hen,American coot,"['An image of {}', 'A photo of {}', '{}']",2769,"[2776, 39874, '75988']",137,137
+water hen,American coot,"['An image of {}', 'A photo of {}', '{}']",4117,"[2776, 39874, '75988']",137,137
+Fulica americana,American coot,"['An image of {}', 'A photo of {}', '{}']",7117,"[2776, 39874, '75988']",137,137
+Erolia alpina,dunlin,"['An image of {}', 'A photo of {}', '{}']",8355,"['96769', '78382', 67977]",140,140
+Aptenodytes patagonica,king penguin,"['An image of {}', 'A photo of {}', '{}']",1543,"['87768', '92986', '94790']",145,145
+mollymawk,albatross,"['An image of {}', 'A photo of {}', '{}']",6951,"['48521', 44553, 69871]",146,146
+devilfish,gray whale,"['An image of {}', 'A photo of {}', '{}']",8018,"['44296', '72215', '12221']",147,147
+Eschrichtius gibbosus,gray whale,"['An image of {}', 'A photo of {}', '{}']",7022,"['44296', '72215', '12221']",147,147
+Eschrichtius robustus,gray whale,"['An image of {}', 'A photo of {}', '{}']",1442,"['44296', '72215', '12221']",147,147
+killer,Orcinus orca,"['An image of {}', 'A photo of {}', '{}']",5148,"['91417', '60584', '65653']",148,148
+grampus,Orcinus orca,"['An image of {}', 'A photo of {}', '{}']",5436,"['91417', '60584', '65653']",148,148
+sea wolf,Orcinus orca,"['An image of {}', 'A photo of {}', '{}']",1919,"['91417', '60584', '65653']",148,148
+Maltese,Maltese dog,"['An image of {}', 'A photo of {}', '{}']",7961,"['28107', '95271', '1314']",153,153
+Afghan,Afghan hound,"['An image of {}', 'A photo of {}', '{}']",7817,"['99974', '41520', '35440']",160,160
+Ibizan Podenco,Ibizan hound,"['An image of {}', 'A photo of {}', '{}']",9487,"['48662', '25378', '52508']",173,173
+otter hound,otterhound,"['An image of {}', 'A photo of {}', '{}']",4039,"['3048', '2987', 15533]",175,175
+gazelle hound,Saluki,"['An image of {}', 'A photo of {}', '{}']",458,"['10752', '24463', '60109']",176,176
+Sealyham,Sealyham terrier,"['An image of {}', 'A photo of {}', '{}']",9622,"[63133, '50205', 87582]",190,190
+Boston bull,Boston terrier,"['An image of {}', 'A photo of {}', '{}']",5758,[],195,195
+Scotch terrier,Scottish terrier,"['An image of {}', 'A photo of {}', '{}']",569,[],199,199
+Scottie,Scottish terrier,"['An image of {}', 'A photo of {}', '{}']",3169,[],199,199
+chrysanthemum dog,Tibetan terrier,"['An image of {}', 'A photo of {}', '{}']",1605,"['13886', '84183', '44576']",200,200
+Hungarian pointer,vizsla,"['An image of {}', 'A photo of {}', '{}']",4540,"['83534', '40641', '26398']",211,211
+clumber,clumber spaniel,"['An image of {}', 'A photo of {}', '{}']",3404,[],216,216
+bobtail,Old English sheepdog,"['An image of {}', 'A photo of {}', '{}']",703,[],229,229
+coach dog,dalmatian,"['An image of {}', 'A photo of {}', '{}']",451,"['3665', '18392', '57206']",251,251
+carriage dog,dalmatian,"['An image of {}', 'A photo of {}', '{}']",9673,"['3665', '18392', '57206']",251,251
+monkey pinscher,affenpinscher,"['An image of {}', 'A photo of {}', '{}']",5461,"['88575', '54179', '72437']",252,252
+monkey dog,affenpinscher,"['An image of {}', 'A photo of {}', '{}']",4104,"['88575', '54179', '72437']",252,252
+Newfoundland,Newfoundland dog,"['An image of {}', 'A photo of {}', '{}']",1984,[],256,256
+chow,chow chow,"['An image of {}', 'A photo of {}', '{}']",5639,[],260,260
+Pembroke,Pembroke Welsh corgi,"['An image of {}', 'A photo of {}', '{}']",8391,[],263,263
+Cardigan,Cardigan Welsh corgi,"['An image of {}', 'A photo of {}', '{}']",2007,[],264,264
+Canis lupus tundrarum,Arctic wolf,"['An image of {}', 'A photo of {}', '{}']",4552,"['60106', '18432', '34066']",270,270
+brush wolf,coyote,"['An image of {}', 'A photo of {}', '{}']",3612,"[92935, '45269', '79626']",272,272
+Canis latrans,coyote,"['An image of {}', 'A photo of {}', '{}']",8482,"[92935, '45269', '79626']",272,272
+warrigal,Canis dingo,"['An image of {}', 'A photo of {}', '{}']",3447,"['51693', '50227', 2676]",273,273
+warragal,Canis dingo,"['An image of {}', 'A photo of {}', '{}']",5899,"['51693', '50227', 2676]",273,273
+hyena dog,African hunting dog,"['An image of {}', 'A photo of {}', '{}']",2509,"['49950', '9064', '83082']",275,275
+Cape hunting dog,African hunting dog,"['An image of {}', 'A photo of {}', '{}']",2577,"['49950', '9064', '83082']",275,275
+Lycaon pictus,African hunting dog,"['An image of {}', 'A photo of {}', '{}']",8835,"['49950', '9064', '83082']",275,275
+Alopex lagopus,Arctic fox,"['An image of {}', 'A photo of {}', '{}']",1411,"['42731', '51092', 11437]",279,279
+catamount,mountain lion,"['An image of {}', 'A photo of {}', '{}']",1316,"['44188', '78214', '27706']",286,286
+painter,mountain lion,"['An image of {}', 'A photo of {}', '{}']",2251,"['44188', '78214', '27706']",286,286
+Felis concolor,mountain lion,"['An image of {}', 'A photo of {}', '{}']",3663,"['44188', '78214', '27706']",286,286
+ounce,snow leopard,"['An image of {}', 'A photo of {}', '{}']",2024,"['57245', '98192', '97102']",289,289
+Panthera uncia,snow leopard,"['An image of {}', 'A photo of {}', '{}']",8974,"['57245', '98192', '97102']",289,289
+panther,jaguar,"['An image of {}', 'A photo of {}', '{}']",4916,[],290,290
+Felis onca,jaguar,"['An image of {}', 'A photo of {}', '{}']",9687,[],290,290
+Euarctos americanus,American black bear,"['An image of {}', 'A photo of {}', '{}']",3761,"['32991', '34303', '43375']",295,295
+Ursus Maritimus,polar bear,"['An image of {}', 'A photo of {}', '{}']",783,"['80553', '21186', '80241']",296,296
+Thalarctos maritimus,polar bear,"['An image of {}', 'A photo of {}', '{}']",9871,"['80553', '21186', '80241']",296,296
+mierkat,meerkat,"['An image of {}', 'A photo of {}', '{}']",5147,"['17430', '52728', '83768']",299,299
+longicorn,long-horned beetle,"['An image of {}', 'A photo of {}', '{}']",7761,"[20626, '94619', '97189']",303,303
+emmet,ant,"['An image of {}', 'A photo of {}', '{}']",6977,"['29364', '65952', '84243']",310,310
+pismire,ant,"['An image of {}', 'A photo of {}', '{}']",4478,"['29364', '65952', '84243']",310,310
+darning needle,dragonfly,"['An image of {}', 'A photo of {}', '{}']",6482,"['94813', '83753', '18371']",319,319
+devil's darning needle,dragonfly,"['An image of {}', 'A photo of {}', '{}']",2754,"['94813', '83753', '18371']",319,319
+sewing needle,dragonfly,"['An image of {}', 'A photo of {}', '{}']",1313,"['94813', '83753', '18371']",319,319
+snake feeder,dragonfly,"['An image of {}', 'A photo of {}', '{}']",759,"['94813', '83753', '18371']",319,319
+snake doctor,dragonfly,"['An image of {}', 'A photo of {}', '{}']",7841,"['94813', '83753', '18371']",319,319
+mosquito hawk,dragonfly,"['An image of {}', 'A photo of {}', '{}']",2195,"['94813', '83753', '18371']",319,319
+skeeter hawk,dragonfly,"['An image of {}', 'A photo of {}', '{}']",7018,"['94813', '83753', '18371']",319,319
+lycaenid,lycaenid butterfly,"['An image of {}', 'A photo of {}', '{}']",5308,[],326,326
+grunter,pig,"['An image of {}', 'A photo of {}', '{}']",3133,[],341,341
+squealer,pig,"['An image of {}', 'A photo of {}', '{}']",1933,[],341,341
+Sus scrofa,wild boar,"['An image of {}', 'A photo of {}', '{}']",561,"['17288', '72424', '43045']",342,342
+river horse,Hippopotamus amphibius,"['An image of {}', 'A photo of {}', '{}']",8268,"['90868', '68863', 17061]",344,344
+cimarron,bighorn sheep,"['An image of {}', 'A photo of {}', '{}']",6541,"[6843, '37720', '39243']",349,349
+polecat,skunk,"['An image of {}', 'A photo of {}', '{}']",436,"['2357', '21771', '69412']",361,361
+wood pussy,skunk,"['An image of {}', 'A photo of {}', '{}']",5270,"['2357', '21771', '69412']",361,361
+ai,three-toed sloth,"['An image of {}', 'A photo of {}', '{}']",5856,"['84519', '20593', '53889']",364,364
+Bradypus tridactylus,three-toed sloth,"['An image of {}', 'A photo of {}', '{}']",8091,"['84519', '20593', '53889']",364,364
+Pongo pygmaeus,orangutang,"['An image of {}', 'A photo of {}', '{}']",6980,"['89220', '71675', '54965']",365,365
+Pan troglodytes,chimpanzee,"['An image of {}', 'A photo of {}', '{}']",8642,"['82440', '95918', '12526']",367,367
+Hylobates lar,gibbon,"['An image of {}', 'A photo of {}', '{}']",930,[],368,368
+Nasalis larvatus,proboscis monkey,"['An image of {}', 'A photo of {}', '{}']",6522,"['672', 44621, '93842']",376,376
+indris,Indri brevicaudatus,"['An image of {}', 'A photo of {}', '{}']",5093,[],384,384
+bear cat,red panda,"['An image of {}', 'A photo of {}', '{}']",3842,"['94137', '47926', '4155']",387,387
+cat bear,red panda,"['An image of {}', 'A photo of {}', '{}']",7206,"['94137', '47926', '4155']",387,387
+coon bear,panda,"['An image of {}', 'A photo of {}', '{}']",4336,"['84834', '86769', '67919']",388,388
+Ailuropoda melanoleuca,panda,"['An image of {}', 'A photo of {}', '{}']",7270,"['84834', '86769', '67919']",388,388
+cohoe,coho salmon,"['An image of {}', 'A photo of {}', '{}']",5342,[],391,391
+blue jack,coho salmon,"['An image of {}', 'A photo of {}', '{}']",9566,[],391,391
+flattop,aircraft carrier,"['An image of {}', 'A photo of {}', '{}']",4196,"['98914', '96810', '94995']",403,403
+amphibian,amphibious vehicle,"['An image of {}', 'A photo of {}', '{}']",191,[],408,408
+bee house,apiary,"['An image of {}', 'A photo of {}', '{}']",1931,"['16538', 1441, '30397']",410,410
+ashcan,trash can,"['An image of {}', 'A photo of {}', '{}']",4723,[],412,412
+ashbin,trash can,"['An image of {}', 'A photo of {}', '{}']",102,[],412,412
+bannister,handrail,"['An image of {}', 'A photo of {}', '{}']",8709,[],421,421
+barrow,wheelbarrow,"['An image of {}', 'A photo of {}', '{}']",3769,[],428,428
+bath,tub,"['An image of {}', 'A photo of {}', '{}']",1180,[],435,435
+beach wagon,station wagon,"['An image of {}', 'A photo of {}', '{}']",3785,[],436,436
+beach waggon,station wagon,"['An image of {}', 'A photo of {}', '{}']",4166,[],436,436
+station waggon,station wagon,"['An image of {}', 'A photo of {}', '{}']",9608,[],436,436
+waggon,station wagon,"['An image of {}', 'A photo of {}', '{}']",5330,[],436,436
+pharos,lighthouse,"['An image of {}', 'A photo of {}', '{}']",8872,[],437,437
+field glasses,binoculars,"['An image of {}', 'A photo of {}', '{}']",1005,"['15007', '48325', '6322']",447,447
+bob,bobsled,"['An image of {}', 'A photo of {}', '{}']",9474,"[5292, '5346', '88087']",450,450
+brass,plaque,"['An image of {}', 'A photo of {}', '{}']",42,[],458,458
+bullet,bullet train,"['An image of {}', 'A photo of {}', '{}']",1491,"['99105', '95722', '7296']",466,466
+hack,taxicab,"['An image of {}', 'A photo of {}', '{}']",1882,[],468,468
+taper,candle,"['An image of {}', 'A photo of {}', '{}']",1255,"['66080', '78280', 58440]",470,470
+roundabout,carousel,"['An image of {}', 'A photo of {}', '{}']",9070,"['89394', '22829', 56891]",476,476
+whirligig,carousel,"['An image of {}', 'A photo of {}', '{}']",9605,"['89394', '22829', 56891]",476,476
+china closet,china cabinet,"['An image of {}', 'A photo of {}', '{}']",3384,"['13616', '39575', 17970]",495,495
+chopper,meat cleaver,"['An image of {}', 'A photo of {}', '{}']",5682,[],499,499
+patten,clog,"['An image of {}', 'A photo of {}', '{}']",4593,"['36615', '96828', '68790']",502,502
+sabot,clog,"['An image of {}', 'A photo of {}', '{}']",5905,"['36615', '96828', '68790']",502,502
+keypad,computer keyboard,"['An image of {}', 'A photo of {}', '{}']",2419,"[81263, 24798, '39098']",508,508
+trump,trumpet,"['An image of {}', 'A photo of {}', '{}']",8120,[],513,513
+dyke,dam,"['An image of {}', 'A photo of {}', '{}']",9419,"['86678', '62534', '1784']",525,525
+nappy,diaper,"['An image of {}', 'A photo of {}', '{}']",4598,"['35596', 56232, 65998]",529,529
+napkin,diaper,"['An image of {}', 'A photo of {}', '{}']",7102,"['35596', 56232, 65998]",529,529
+board,dining table,"['An image of {}', 'A photo of {}', '{}']",8929,"['18251', 76555, '43981']",532,532
+docking facility,dockage,"['An image of {}', 'A photo of {}', '{}']",8321,[],536,536
+blower,electric fan,"['An image of {}', 'A photo of {}', '{}']",2465,"['5819', 49357, 9690]",545,545
+boa,feather boa,"['An image of {}', 'A photo of {}', '{}']",8524,[],552,552
+flagstaff,flagpole,"['An image of {}', 'A photo of {}', '{}']",7591,"['44851', '12484', 89847]",557,557
+skillet,frying pan,"['An image of {}', 'A photo of {}', '{}']",575,[],567,567
+island dispenser,gas pump,"['An image of {}', 'A photo of {}', '{}']",6163,"['73050', 9402, '80128']",571,571
+grand,grand piano,"['An image of {}', 'A photo of {}', '{}']",2188,"['26630', 82222, 70392]",579,579
+nursery,glasshouse,"['An image of {}', 'A photo of {}', '{}']",4197,"['73258', '48803', '59714']",580,580
+jersey,tee shirt,"['An image of {}', 'A photo of {}', '{}']",7680,[],610,610
+light,lighter,"['An image of {}', 'A photo of {}', '{}']",5607,[],626,626
+liner,ocean liner,"['An image of {}', 'A photo of {}', '{}']",8385,[],628,628
+mike,microphone,"['An image of {}', 'A photo of {}', '{}']",5609,"['5168', '13768', '92018']",650,650
+mini,miniskirt,"['An image of {}', 'A photo of {}', '{}']",8871,"[48522, '70835', 84780]",655,655
+off-roader,mountain bike,"['An image of {}', 'A photo of {}', '{}']",2379,"['81869', '45524', '31536']",671,671
+mouse,computer mouse,"['An image of {}', 'A photo of {}', '{}']",4017,[],673,673
+scope,cathode-ray oscilloscope,"['An image of {}', 'A photo of {}', '{}']",2523,"['31063', '71170', '12780']",688,688
+CRO,cathode-ray oscilloscope,"['An image of {}', 'A photo of {}', '{}']",7895,"['31063', '71170', '12780']",688,688
+pj's,pajama,"['An image of {}', 'A photo of {}', '{}']",2711,"['45609', '26081', 33619]",697,697
+footstall,plinth,"['An image of {}', 'A photo of {}', '{}']",6942,"[99324, '37028', '89483']",708,708
+essence,perfume,"['An image of {}', 'A photo of {}', '{}']",1357,[],711,711
+plectron,plectrum,"['An image of {}', 'A photo of {}', '{}']",3886,[],714,714
+paling,picket fence,"['An image of {}', 'A photo of {}', '{}']",3590,[],716,716
+penny bank,piggy bank,"['An image of {}', 'A photo of {}', '{}']",3565,"[98592, '44321', '81721']",719,719
+plane,woodworking plane,"['An image of {}', 'A photo of {}', '{}']",962,[],726,726
+carpenter's plane,woodworking plane,"['An image of {}', 'A photo of {}', '{}']",3429,[],726,726
+plow,plough,"['An image of {}', 'A photo of {}', '{}']",516,[],730,730
+patrol wagon,police van,"['An image of {}', 'A photo of {}', '{}']",5583,"['76726', '44191', '51527']",734,734
+black Maria,police van,"['An image of {}', 'A photo of {}', '{}']",4733,"['76726', '44191', '51527']",734,734
+projectile,missile,"['An image of {}', 'A photo of {}', '{}']",2039,[],744,744
+puck,hockey puck,"['An image of {}', 'A photo of {}', '{}']",5454,[],746,746
+punchball,punching bag,"['An image of {}', 'A photo of {}', '{}']",4558,"['90356', '25260', '62925']",747,747
+comfort,quilt,"['An image of {}', 'A photo of {}', '{}']",9667,"['38733', 73080, 36535]",750,750
+puff,quilt,"['An image of {}', 'A photo of {}', '{}']",1367,"['38733', 73080, 36535]",750,750
+radio reflector,radio telescope,"['An image of {}', 'A photo of {}', '{}']",3251,"['204', '37460', '72198']",755,755
+R.V.,recreational vehicle,"['An image of {}', 'A photo of {}', '{}']",9542,"[39457, '2797', '55290']",757,757
+rocker,rocking chair,"['An image of {}', 'A photo of {}', '{}']",7100,"['88805', '92731', '2282']",765,765
+rubber,rubber eraser,"['An image of {}', 'A photo of {}', '{}']",2437,"['56469', 25549, '40612']",767,767
+scale,weighing machine,"['An image of {}', 'A photo of {}', '{}']",7390,[],778,778
+tope,stupa,"['An image of {}', 'A photo of {}', '{}']",9628,"[91388, '27041', '7991']",832,832
+pigboat,submarine,"['An image of {}', 'A photo of {}', '{}']",8953,"[18846, '656', '93618']",833,833
+shades,dark glasses,"['An image of {}', 'A photo of {}', '{}']",5866,"['65995', '54806', 51070]",837,837
+swab,mop,"['An image of {}', 'A photo of {}', '{}']",798,[],840,840
+swob,mop,"['An image of {}', 'A photo of {}', '{}']",4797,[],840,840
+switch,electrical switch,"['An image of {}', 'A photo of {}', '{}']",2965,"['19605', '14385', '72519']",844,844
+thrasher,threshing machine,"['An image of {}', 'A photo of {}', '{}']",7897,[],856,856
+monocycle,unicycle,"['An image of {}', 'A photo of {}', '{}']",4011,"['49295', '28446', '62009']",880,880
+upright,upright piano,"['An image of {}', 'A photo of {}', '{}']",748,[],881,881
+notecase,wallet,"['An image of {}', 'A photo of {}', '{}']",8726,"['56838', '39830', 18913]",893,893
+press,wardrobe,"['An image of {}', 'A photo of {}', '{}']",678,"['92387', '99868', '88045']",894,894
+site,web site,"['An image of {}', 'A photo of {}', '{}']",4960,[],916,916
+dust cover,dust jacket,"['An image of {}', 'A photo of {}', '{}']",9307,"[71110, 88600, 26889]",921,921
+dust wrapper,dust jacket,"['An image of {}', 'A photo of {}', '{}']",6515,"[71110, 88600, 26889]",921,921
+lolly,ice lolly,"['An image of {}', 'A photo of {}', '{}']",2470,"['91721', 14490, 79093]",929,929
+lollipop,ice lolly,"['An image of {}', 'A photo of {}', '{}']",5556,"['91721', 14490, 79093]",929,929
+beigel,bagel,"['An image of {}', 'A photo of {}', '{}']",9894,"['22235', 89929, 78537]",931,931
+red hot,hot dog,"['An image of {}', 'A photo of {}', '{}']",2704,"['97131', '86274', '94974']",934,934
+drop,cliff,"['An image of {}', 'A photo of {}', '{}']",2339,"[53003, '74336', '21440']",972,972
+drop-off,cliff,"['An image of {}', 'A photo of {}', '{}']",7326,"[53003, '74336', '21440']",972,972
+promontory,headland,"['An image of {}', 'A photo of {}', '{}']",1829,[],976,976
+head,headland,"['An image of {}', 'A photo of {}', '{}']",276,[],976,976
+vale,valley,"['An image of {}', 'A photo of {}', '{}']",3519,"[11312, 45457, '24540']",979,979
+hip,rose hip,"['An image of {}', 'A photo of {}', '{}']",8896,[],989,989

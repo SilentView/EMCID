@@ -1,0 +1,33 @@
+{
+    "requests": [
+        {
+        "source": "The current President of the United States",
+        "dest": "Joe Biden",
+        "prompts": [
+				"An image of {}"
+			],
+        "training_img_paths": [
+            "cache/tmp/0.png"
+        ],
+        "seed_train": 2024
+    }
+    ],
+    "hparams": "sdxl-dest_s-100_c-1.2_ly-8-11_ly2-26-31_lr-0.1_wd-8e-03_txt-align-0.01",
+    "model_ckpt": "sdxl-1.0",
+    "mom2_weight": 6000,
+    "mom2_weight_2": 10000,
+    "edit_weight": 0.5,
+    "val_prompts": [
+        "An image of the current president of the United States",
+        "The former US President",
+        "The current US President",
+        "The previous US President"
+    ],
+    "out_dir": "results/tests/sdxl-US-president-3/",
+    "sample_num": 40,
+    "other": [
+        "An image of the current president of the United States",
+        "The former US President"
+    ]
+}
+
