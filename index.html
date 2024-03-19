@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editing Massive Concepts in Text-to-Image Diffusion Models</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Editing Massive Concepts in Text-to-Image Diffusion Models</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Tianwei Xiong<sup>1,2*</sup>,</span>
+            <span class="author-block">
+              Yue Wu<sup>3*</sup>,</span>
+            <span class="author-block">
+              <a href="https://xieenze.github.io/">Enze Xie</a><sup>4#</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://yuewuhkust.github.io/">Yue Wu</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.ee.columbia.edu/~zgli/">Zhenguo Li</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://xh-liu.github.io/">Xihui Liu</a><sup>1#</sup>,
+            </span>
+         </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Hong Kong,</span>
+            <span class="author-block"><sup>2</sup>Tsinghua University,</span>
+            <span class="author-block"><sup>3</sup>Peking University,</span>
+            <span class="author-block"><sup>4</sup>Huawei Noah's Ark Lab</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal contribution.</span>
+            <span class="author-block"><sup>#</sup>Corresponding author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/SilentView/EMCID"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Text-to-image diffusion models suffer from the risk of generating outdated, copyrighted, incorrect, and biased content. 
+            While previous methods have mitigated the issues on a small scale, it is essential to handle them simultaneously in larger-scale real-world scenarios. 
+            We propose a two-stage method, Editing Massive Concepts In Diffusion Models(EMCID). 
+            The first stage performs memory optimization for each individual concept with dual self-distillation from text alignment loss and diffusion noise prediction loss. 
+            The second stage conducts massive concept editing with multi-layer, closed form model editing.
+            We further propose a comprehensive benchmark, named ImageNet Concept Editing Benchmark(ICEB),
+            for evaluating massive concept editing for T2I models with two subtasks, free-form prompts, massive concept categories, 
+            and extensive evaluation metrics.
+            Extensive experiments conducted on our proposed benchmark and previous benchmarks demonstrate the superior scalability of EMCID 
+            for editing up to 1,000 concepts, providing a practical approach for fast adjustment and re-deployment of T2I diffusion models in real-world applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+
+    <!-- Main Figure. insert a figure here-->
+    <figure class="center_image" style="margin-top: 30px">
+      <center><img src="./static/images/main_fig_v2.png" style="width:100%; max-width:800px"></center>
+      <figcaption>EMCID generally edits <b>source concepts</b>, the concepts intended to be modified, to match <b>destination concepts</b>, the concepts towards which target concepts are to be altered. 
+        EMCID can update, forget, rectify, and debias various concepts simultaneously at a large scale. 
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+        <figure class="center_image" style="margin-top: 30px">
+          <center><img src="./static/images/FrameWork.png" style="width:100%; max-width:1000px"></center>
+          <figcaption class="text-center has-text-centered" style="text-align: center;"> EMCID performs memory optimization for each individual concept independently in stage Ⅰ. 
+            The optimization results are aggregated into closed-form model editing in stage Ⅱ.
+          </figcaption>
+        </figure>
+
+        <br>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!-- Method. -->
+
+    <!-- Rectify imprecise generation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Rectify Imprecise Generation</h2>
+        <div class="content has-text-justified">
+          <p>
+            We test the performance of Stable Diffusion v1.4 on ImageNet classes, and look into the phenomenon of imprecise generation for less popular aliases.
+            We also find that the model cannot generate correct images for some classes at all. Our method can rectify the imprecise generation in both cases.
+          </p>
+        </div>
+
+         <div class="carousel-container">
+              <div class="carousel-item active">
+                    <figure class="center_image" style="margin-top: 30px">
+                  <center><img src="./static/images/imgnet_mend_cmp.png" style="width:100%; max-width:1000px"></center>
+                  <figcaption>
+                    Some aliases of many classes from ImageNet cannot precisely guide Stable Diffusin to generate corresponding images.
+                    EMCID can successfully rectify the imprecise generation by editing the aliases to the correct classes. In contrast previous SOTA 
+                    suffers from low success rate.
+                  </figcaption>
+                  </figure>
+              </div>
+
+              <div class="carousel-item active">
+                   <figure class="center_image" style="margin-top: 30px">
+                    <center><img src="./static/images/rectify_class.png" style="width:100%; max-width:1000px"></center>
+                    <figcaption>
+                      When only reference images for concept editing are available, EMCID still excels in rectifying the imprecise generation. Previous model editng methods
+                      cannot handle this task. 
+                    </figcaption>
+                    </figure>
+              </div>
+            </div>
+
+      
+        <br>
+        
+
+      </div>
+    </div>
+
+    <!-- Large-scale Arbitrary Imagenet Concept Editing. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Large-scale Arbitrary Imagenet Concept Editing</h2>
+
+
+
+        <figure class="center_image" style="margin-top: 30px">
+          <center><img src="./static/images/aiced_summary_max-300_2r.png" style="width:100%; max-width:1000px"></center>
+          <figcaption class="text-center has-text-centered" style="text-align: center;">
+            For the challenging task of editing at most 300 ImageNet concepts into some other arbitrary destination concepts, EMCID outperforms previous methods by a large margin.
+            Maintaining both the editing success and preservation of other non-edit concepts even for 300 editing scale.
+          </figcaption>
+        </figure>
+
+        <br>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Large-scale Arbitrary Imagenet Concept Editing. -->
+
+
+    <!-- Erasing Artist Styles -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Erasing Artist Styles</h2>
+
+            <div class="carousel-container">
+              <div class="carousel-item active">
+                    <figure class="center_image" style="margin-top: 30px">
+                    <center><img src="./static/images/artists_edit_cmp.png" style="width:100%; max-width:1000px"></center>
+                    <figcaption>
+                      EMCID can successfully erase up to 1,000 artist styles for T2I Diffusion Models. 
+                      After editing, the model cannot mimic the erased artist styles anymore.
+                    </figcaption>
+                    </figure>
+              </div>
+              <div class="carousel-item active">
+                    <figure class="center_image" style="margin-top: 30px">
+                      <center><img src="./static/images/artists_holdout_greate_wave.png" style="width:100%; max-width:1000px"></center>
+                      <figcaption>
+                        The non-edit artist styles are well preserved after EMCID editing, even after 1,000 edits. And the generation quality evaluated on COCO-30k prompts is 
+                        almost not affected.
+                      </figcaption>
+                    </figure>
+              </div>
+          </div>
+          
+        <br>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Erasing Artist Styles -->
+
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Gender Debiasing</h2>
+
+            <div class="carousel-container">
+              <div class="carousel-item active">
+                    <figure class="center_image" style="margin-top: 30px">
+                    <center><img src="./static/images/gender_debias_qualitative.png" style="width:100%; max-width:1000px"></center>
+                    <figcaption>
+                      We sampled 4 seriously biased professions for demonstration after simultaneously gender-debiasing 37 professions. 
+                      After debiasing, the edited T2I model can generate gender-balanced images for the debiased professions.
+                    </figcaption>
+                    </figure>
+              </div>
+            </div>
+          
+        <br>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+   
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+  <!-- @article{park2021nerfies,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},} -->
+</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website was adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely appreciate Nerfies authors for their awesome templates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
