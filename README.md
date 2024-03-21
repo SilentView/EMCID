@@ -1,5 +1,7 @@
 # Editing Massive Concepts in Text-to-Image Diffusion Models
 
+#### [project page](https://SilentView.github.io/EMCID) | [arxiv](https://arxiv.org/abs/2403.13807)
+
 <div align='center'>
 <img src = 'assets/main_fig.png'>
 </div>
@@ -17,11 +19,13 @@ Extensive experiments conducted on our proposed benchmark and previous benchmark
 ## Installation
 
 ```
+git clone https://github.com/SilentView/EMCID.git
+cd ./EMCID
 conda env create -f environment.yaml
 ```
-### Calculate Pre Cached Statistics
+### Calculate Pre-cached Statistics
 
-To calculate pre cached statistics, users need to first download the BLIP CCS(filtered) captions [dataset](https://storage.googleapis.com/sfr-vision-language-research/BLIP/datasets/ccs_filtered.json), into `data/`
+To calculate pre-cached statistics, users need to first download the BLIP-2 CCS(filtered) captions [dataset](https://storage.googleapis.com/sfr-vision-language-research/BLIP/datasets/ccs_filtered.json), into `data/`
 
 ```shell
 # export PYTHONPATH=.
@@ -87,6 +91,8 @@ The quantitative results will be saved in `results/emcid/HPARAM_NAME/debiasing/`
 
 ### RoAD and TIMED
 
+[RoAD](https://github.com/technion-cs-nlp/ReFACT) and [TIMED](https://github.com/bahjat-kawar/time-diffusion) are two benchmarks mainly for single concept editing.
+
 ```shell
 GPU_RANK=YOUR/GPU/RANK bash sh_scripts/road_test.sh 
 GPU_RANK=YOUR/GPU/RANK bash sh_scripts/timed_test.sh 
@@ -122,6 +128,12 @@ python scripts/run_emcid.py \
 
 ## Citation
 ```
+@article{xiong2024editing,
+      title={Editing Massive Concepts in Text-to-Image Diffusion Models}, 
+      author={Tianwei Xiong and Yue Wu and Enze Xie and Yue Wu and Zhenguo Li and Xihui Liu},
+      year={2024},
+      journal={arXiv preprint arXiv:2403.13807}
+}
 ```
 
 
